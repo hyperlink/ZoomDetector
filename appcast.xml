@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>ZoomDetector Updates</title>
+    <item>
+      <title>Version 1.1.0</title>
+      <description><![CDATA[<h2>Release Notes</h2><p>What's new...</p>]]></description>
+      <pubDate>Mon, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <enclosure
+        url="https://hyperlink.github.io/ZoomDetector/ZoomDetector-1.1.0.zip"
+        sparkle:version="42"
+        sparkle:shortVersionString="1.1.0"
+        length="12345678"
+        type="application/octet-stream"
+        sparkle:edSignature="REPLACE_WITH_EDDSA_SIGNATURE"
+      />
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+    </item>
+  </channel>
+</rss>
