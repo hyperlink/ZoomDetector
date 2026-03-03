@@ -1,20 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
-  <channel>
-    <title>ZoomDetector Updates</title>
-    <item>
-      <title>Version 1.1.0</title>
-      <description><![CDATA[<h2>Release Notes</h2><p>What's new...</p>]]></description>
-      <pubDate>Mon, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <enclosure
-        url="https://hyperlink.github.io/ZoomDetector/ZoomDetector-1.1.0.zip"
-        sparkle:version="42"
-        sparkle:shortVersionString="1.1.0"
-        length="12345678"
-        type="application/octet-stream"
-        sparkle:edSignature="REPLACE_WITH_EDDSA_SIGNATURE"
-      />
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-    </item>
-  </channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>ZoomDetector Updates</title>
+        <item>
+            <title>1.3.0</title>
+            <description><![CDATA[<h2>What's New</h2><ul><li>Improved Zoom meeting detection — the app now monitors the <code>cpthost</code> process, Zoom's dedicated meeting host process that only runs during active meetings. This is more reliable than previous detection methods and works without any accessibility permissions.</li><li>Automatic updates — the app will now notify you when a new version is available and let you update with one click.</li></ul>]]></description>
+            <pubDate>Mon, 02 Mar 2026 21:14:44 -0500</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/hyperlink/ZoomDetector/releases/download/v1.3.0/MeetingDetector-1.3.0.zip" length="3691088" type="application/octet-stream" sparkle:edSignature="a0fawE7RUd4PFexExoRA5GWkgxi8xD6Y/3okj8VdrWYVVzsNK9po0lH+t5gVRI4ckuyLZi8colMmbGTViV/cBg=="/>
+        </item>
+    </channel>
 </rss>
